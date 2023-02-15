@@ -1,10 +1,9 @@
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html
 import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output, State
-from dash_table import DataTable
-from dash_table.FormatTemplate import Format
+from dash.dash_table import DataTable
+from dash.dash_table.FormatTemplate import Format
 from plotly.subplots import make_subplots
 import pandas as pd
 # import advertools as adv
@@ -89,7 +88,7 @@ logo = dbc.Navbar(
                         dbc.Col(dbc.NavbarBrand("Real Time Sentiment Analysis", className="ml-2")),
                     ],
                     align="center",
-                    no_gutters=True,
+                    # no_gutters=True,
                 ),
             ),
                 dbc.NavbarToggler(id="navbar-toggler2"),
