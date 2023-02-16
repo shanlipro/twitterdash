@@ -102,3 +102,6 @@ For setting up the project on a local machine
         nltk.download()
     ```
 
+** Userful Resources
+1. https://infatica.io/blog/scraping-twitter-with-scraper-api/
+
