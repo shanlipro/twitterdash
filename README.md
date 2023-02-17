@@ -104,4 +104,6 @@ For setting up the project on a local machine
 
 ** Userful Resources
 1. https://infatica.io/blog/scraping-twitter-with-scraper-api/
+2. https://developer.twitter.com/en/docs/twitter-api/premium/rules-and-filtering/operators-by-product
+
 
